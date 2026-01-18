@@ -10,8 +10,6 @@
 GET https://music.163.com/api/song/detail?ids=[歌曲ID]
 ```
 
-- `ids`：歌曲 ID，多个用英文逗号分隔（如 `537407937`）
-
 ---
 
 ## 搜索接口
