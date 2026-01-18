@@ -1,13 +1,13 @@
 # 网易云音乐 API 整理
 
-> ⚠️ 非官方接口，仅供学习，可能随时失效。
+> ⚠️ 官方未公开接口，仅供学习。
 
 ---
 
 ## 歌曲详情
 
 ```
-https://music.163.com/api/song/detail?ids=[歌曲ID]
+https://music.163.com/api/song/detail?ids=[{歌曲id}]
 ```
 
 ### 示例
@@ -38,3 +38,31 @@ https://music.163.com/api/search/get?s=Peaches&type=1
 | type   | 类型（1为单曲）           |
 | offset | 偏移量（分页）           |
 | limit  | 返回数量      |
+
+---
+
+## 歌词
+
+```
+https://music.163.com/api/song/media?id={歌曲ID}
+```
+
+### 示例
+
+```
+https://music.163.com/api/song/media?id=1830419924
+```
+
+---
+
+## 双语歌词
+
+```
+https://music.163.com/api/song/lyric?id={歌曲ID}&lv=-1&tv=-1
+```
+
+### 示例
+
+```
+https://music.163.com/api/song/lyric?id=1830419924&lv=-1&tv=-1
+```
