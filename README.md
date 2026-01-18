@@ -10,12 +10,24 @@
 https://music.163.com/api/song/detail?ids=[歌曲ID]
 ```
 
+### 示例
+
+```
+https://music.163.com/api/song/detail?ids=[1830419924]
+```
+
 ---
 
 ## 搜索接口
 
 ```
 https://music.163.com/api/search/get
+```
+
+### 示例
+
+```
+https://music.163.com/api/search/get?s=Peaches&type=1
 ```
 
 ### 参数
