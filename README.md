@@ -7,7 +7,7 @@
 ## 歌曲详情
 
 ```
-GET https://music.163.com/api/song/detail?ids=[歌曲ID]
+https://music.163.com/api/song/detail?ids=[歌曲ID]
 ```
 
 ---
@@ -15,7 +15,7 @@ GET https://music.163.com/api/song/detail?ids=[歌曲ID]
 ## 搜索接口
 
 ```
-POST https://music.163.com/api/search/get
+https://music.163.com/api/search/get
 ```
 
 ### 参数
